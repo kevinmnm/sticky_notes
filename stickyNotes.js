@@ -77,10 +77,8 @@ new Vue({
         preCreate: function(){
         	let preview = document.querySelector('.preview');
         	let preNote = document.querySelector('.preNote');
-            let prePin = preNote.querySelector('.pin');
             let preTopS = preNote.querySelector('.topS');
             let titleTxt = preTopS.querySelector('.titleTxt');
-            let prexx = preNote.querySelector('.xx');
             let preEdito = preNote.querySelector('.edito');
             
             preview.style.display = 'block';

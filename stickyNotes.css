@@ -1,4 +1,4 @@
-html {}
+
 body {
 	position: absolute;
     width: 100%;
@@ -32,7 +32,7 @@ body {
     right: 0;
 	width: 35%;
     box-sizing: border-box;
-    font-size: calc(2vw + 2vh);
+    font-size: calc(1.5vw + 1.5vh);
     text-align: center;
     padding: 20px;
     background-color: white;
@@ -49,7 +49,7 @@ mark:hover{
     top: 0;
     right: 0;
     box-sizing: border-box;
-    font-size: calc(2vw + 2vh);
+    font-size: calc(1.5vw + 1.5vh);
     line-height: 0.7;
     padding: 1px;
     text-align: center;
@@ -236,15 +236,15 @@ textarea{
 
 #config{
 	position: relative;
-    width: 70%;
+    width: 50%;
     height: 95%;
     top: 2%;
-    left: 15%;
+    left: 25%;
     box-sizing: border-box;
     box-shadow: 0 0 15px black;
     text-align: center;
     padding: 3%;
-    font-size: calc(1.5vw + 1.5vh);
+    font-size: 15px;
     background-color: white;
     border-radius: 5px;
     overflow: auto;
@@ -283,8 +283,13 @@ textarea{
     padding: 5px;
 }
 
+.tb input,
+.tb select{
+    font-size: 15px;
+}
+
 .butto{
-	position: realtive;
+	position: relative;
     padding: 3px;
     box-shadow: 0 0 5px black;
     background-color: pink;
@@ -304,7 +309,7 @@ textarea{
     padding: 30px;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid blue;
+    box-shadow: 0 0 5px black;
     margin-top: 5px;
     background-image: linear-gradient(0deg, transparent 24%, lightGrey 25%, lightGrey 26%, transparent 27%, transparent 74%, lightGrey 75%, lightGrey 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, lightGrey 25%, lightGrey 26%, transparent 27%, transparent 74%, lightGrey 75%, lightGrey 76%, transparent 77%, transparent);
   background-size: 50px 50px;
